@@ -1,0 +1,97 @@
+body {
+    margin:0px;
+    padding:0px;
+}
+
+.add-recipe-sec{
+    width:600px;
+    margin:auto;
+    margin-top:120px;
+    transition: 3s;
+}
+
+.add-recipe-sec .form-control:focus {
+    border-color: #ced4da!important;
+    box-shadow: none!important;
+}
+
+
+.products-box-sec {
+    width:95%;
+    margin:auto;
+    margin-top:120px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+.selected-products-box-sec {
+    width:95%;
+    margin:auto;
+    margin-top:40px;
+    padding-bottom: 50px;
+}
+
+.selected-products-art {
+    width:100%;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.selected-products-box-sec h2 {text-align: center;width: 100%;}
+.products-box-sec .products-box {
+    position: relative;
+    width:650px;
+    min-height:155px;
+    padding:30px 20px 10px 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top:40px;
+    border: 1px solid rgb(222,222,222);
+}
+
+.products-box-sec .products-box .RecBtn {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.products-box-sec .products-box .left {display: flex; }
+.products-box-sec .products-box .left img {width:150px;height:100px;object-fit: contain;}
+.products-box-sec .products-box .left .info {padding-left: 30px;}
+.products-box-sec .products-box .right { padding-top:20px;}
+
+.selected-products-art .products-box {
+    position: relative;
+    width:650px;
+    min-height:155px;
+    padding:30px 20px 10px 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top:40px;
+    border: 1px solid rgb(222,222,222);
+}
+
+.selected-products-art .products-box .RecBtn {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.selected-products-art .products-box .left {display: flex; }
+.selected-products-art .products-box .left img {width:150px;height:100px;object-fit: contain;}
+.selected-products-art .products-box .left .info {padding-left: 30px;}
+.selected-products-art .products-box .right { padding-top:20px;}
+
+#SubmitAllProducts {
+    width:400px;
+    display: block;
+    margin: auto;
+    margin-top:100px;
+    margin-bottom: 50px;
+}
+
+
+@media screen and (max-width:700px) {
+    .add-recipe-sec .add-recipe-sec{
+        width:95%;
+    }
+}
